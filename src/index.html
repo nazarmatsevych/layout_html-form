@@ -1,9 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -15,12 +17,12 @@
       method="POST">
       <fieldset class="set">
         <legend>Personal information</legend>
-        <label class="form-field" for="Surname">
+        <label class="form-field" for="surname">
           Surname:
           <input
             type="text"
             name="Surname"
-            id="Surname"
+            id="surname"
             autocomplete="off"
           >
         </label>
@@ -47,12 +49,12 @@
           >
         </label>
         <br>
-        <label class="form-field" for="birth">
+        <label class="form-field" for="birthdate">
           Full date of birth:
           <input
             type="date"
             name="birth"
-            id="birth"
+            id="birthdate"
           >
         </label>
         <br>
@@ -93,32 +95,32 @@
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
-          <label for="Do-you-love-cats">
+          <label for="yes">
             <input
               name="cats"
               type="radio"
-              id="Do-you-love-cats"
+              id="yes"
               value="y"
             >
                 Yes
           </label>
-          <label for="cats">
+          <label for="no">
             <input
               name="cats"
               type="radio"
-              id="cats"
+              id="no"
               value="n"
             >
               No
           </label>
         </div>
         <br>
-        <label class="form-field" for="favorite">
+        <label class="form-field" for="favorite-colour">
           What is your favorite color?
           <input
             type="color"
             name="color"
-            id="favorite"
+            id="favorite-colour"
             value="f000"
           >
         </label>
@@ -139,9 +141,9 @@
             id="cars"
             multiple
           >
-            <option value="">BMW</option>
-            <option value="">Audi</option>
-            <option value="">Lada</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
           </select>
         </label>
         <br>
@@ -170,7 +172,7 @@
         <label class="form-field" for="recommend">
           Would you recommend us?
           <select
-            type="number"
+            type="select"
             id="recommend"
             name="recommended"
           >
